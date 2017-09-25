@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Browse our Store</h2>
+
+
+<ul>
+    <li>@Html.ActionLink("ROCK", "Browse", "store", new { genre = "ROCK"}, null)</li>
+    <li>@Html.ActionLink("JAZZ", "Browse", "store", new { genre = "JAZZ" }, null)</li>
+    <li> @Html.ActionLink("METAL", "Browse", "store", new { genre = "METAL" }, null)</li>
+</ul>
+
+
+
+
